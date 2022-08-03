@@ -4,6 +4,7 @@ import Image from 'next/image';
 import styles from '/styles/Home.module.css';
 
 export async function getStaticProps() {
+
   const maxPokemons = 251;
   const api = `https://pokeapi.co/api/v2/pokemon/`;
 
@@ -28,13 +29,11 @@ export default function Home({ pokemons }) {
         <h1 class className={styles.title}>
           Poke<span>Next</span>
         </h1>
-
         <Image src="/images/pokeball.png"
           width="50"
           height="50"
           alt="Pokeext"
         />
-
       </div>
       <div className={styles.pokemon_container}>
         {pokemons.map((pokemon) => (
