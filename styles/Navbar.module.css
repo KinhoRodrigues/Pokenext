@@ -23,18 +23,3 @@
   list-style: none;
 }
 
-.link_itens li {
-  margin-right: 1.3em;
-}
-
-.link_itens a {
-  color: #fff;
-  text-decoration: none;
-  padding: 5px;
-  transition: .4s;
-  border-bottom: 2px solid transparent;
-}
-
-.link_itens a:hover {
-  border-color: #fff;
-}
