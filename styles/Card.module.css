@@ -6,7 +6,7 @@
   padding: 2em 1em;
   margin-bottom: 2em;
   width: 23%;
-  border-radius: 1em;
+  border-radius: 12px;
   border: 2px solid #ffffff;
   box-shadow: 5px 5px 12px;
   background-color: rgb(45, 46, 60);
@@ -24,15 +24,14 @@
 }
 
 .card .title {
-
   text-transform: capitalize;
-  margin-bottom: iem;
-  font-size: 1.4em;
+  margin-bottom: 0.5em;
+  font-size: 1.0em;
 }
 
 .card .btn {
   text-decoration: none;
-  background-color: #fff;
+  background-color: rgb(212, 224, 222);
   color: #222;
   padding: .7em 1.2em;
   border-radius: 5px;
