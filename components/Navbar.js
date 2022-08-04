@@ -13,15 +13,16 @@ export default function Navbar() {
         />
         <h1>Pokenext</h1>
       </div>
+
       <ul className={styles.link_items}>
         <li>
           <Link href="/">
-            <a color='primary' href>Home</a>
+            <a>Home</a>
           </Link>
         </li>
         <li>
           <Link href="/about">
-            <a color='primary' href>Sobre</a>
+            <a>Sobre</a>
           </Link>
         </li>
       </ul>
