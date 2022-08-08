@@ -12,7 +12,7 @@ export default function Card({ pokemon }) {
         height="120"
         alt={pokemon.name}
       />
-      <p className={styles.id}>#{pokemon.id}</p>
+      <p className={styles.id}>{pokemon.id}</p>
 
       <h3 className={styles.title}>{pokemon.name}</h3>
 
